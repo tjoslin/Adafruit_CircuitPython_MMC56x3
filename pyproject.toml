@@ -41,7 +41,7 @@ classifiers = [
 dynamic = ["dependencies", "optional-dependencies"]
 
 [tool.setuptools]
-py-modules = ["adafruit_mmc56x3"]
+py-modules = ["adafruit_mmc56x3", "mmc5983"]
 
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
